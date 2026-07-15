@@ -1,5 +1,6 @@
 import datetime
 import time
+print("=====================CHATBOT===================")
 name=input("Wat's your name:")
 hour= datetime.datetime.now().hour
 if  5<= hour<=12:
@@ -14,7 +15,7 @@ else:
 print("WELCOME SIR/MAM💛")
 print("Iam your mini ai chatbot 🤖")
 print("you can ask me anything,but make sure to type bye while exit")
-
+print("================================================")
 QnAdict={ "HELLO":"hi! how are you",
           "I AM FINE":"Good to hear that,How can i help you",
           "HAPPY":"Great to here that",
@@ -33,6 +34,7 @@ while True:
     user=input("Please Ask your Question:")
     if "bye" in user.lower():
         print("BYE!see you next time💛")
+        print("================================================")
         break
     print("Chatbot ANS:",func(user))    
        
