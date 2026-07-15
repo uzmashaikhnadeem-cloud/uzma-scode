@@ -1,13 +1,13 @@
 import datetime
 import time
 print("=====================CHATBOT===================")
-name=input("Wat's your name:")
+name=input("What's your name:")
 hour= datetime.datetime.now().hour
-if  5<= hour<=12:
+if  5<= hour<12:
     print("Good Morning🌅:",name)
-elif 12<=hour<=17:
+elif 12<=hour<17:
     print("Good Afternoon🕛:",name)
-elif 17<=hour<=21:
+elif 17<=hour<20:
     print("Good Evening🌆:",name)
 else:
     print("Good Night🌃:",name)
@@ -28,7 +28,7 @@ def func(user):
     for a in QnAdict:
         if a in user:
             return QnAdict[a]
-    return ("SORRY 🙏🏻 !I dont know,but iam learning soon")  
+    return ("SORRY🙏🏻!I dont know,but iam learning soon")  
   
 while True:
     user=input("Please Ask your Question:")
