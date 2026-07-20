@@ -1,4 +1,4 @@
-# uzma-scode
+# Mini Expense Tracker
 
 ## Project 1: Expense Tracker 💸
 
